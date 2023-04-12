@@ -12,6 +12,8 @@ public class TypePanel extends JPanel {
         super(new GridLayout(2, 3));
         setPreferredSize(new Dimension(750, 170));
         setBorder(new TitledBorder("Send message"));
+
+
         add(textField);
     }
 }

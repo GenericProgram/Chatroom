@@ -14,7 +14,7 @@ public class Client implements Runnable {
     @Override
     public void run() {
         try {
-            Socket client = new Socket("192.168.254.100", 9999);
+            Socket client = new Socket("10.89.17.38", 9999);
             out = new PrintWriter(client.getOutputStream(), true);
             in = new BufferedReader(new InputStreamReader(client.getInputStream()));
 

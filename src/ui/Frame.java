@@ -3,6 +3,7 @@ package ui;
 import javax.swing.*;
 import java.awt.*;
 
+import static ui.InfoPanel.infoPanel;
 import static ui.TypePanel.typePanel;
 import static ui.TextPanel.textPanel;
 import static ui.ParticipantPanel.participantPanel;
@@ -17,6 +18,9 @@ public class Frame extends JFrame {
         setResizable(false);
         setLocationRelativeTo(null);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+        add(infoPanel, BorderLayout.NORTH);
+
 
 
         //textbox and chatbox

@@ -19,7 +19,7 @@ public class InfoPanel extends JPanel {
 
         participantLabel = new JLabel("Number of participants: ");
         participantLabel.setBorder(new EmptyBorder(5, 0, 0, 5));
-        add(participantLabel, BorderLayout.EAST);
+        add(participantLabel, BorderLayout.WEST);
     }
 
     public void setParticipantLabel(String text) {
