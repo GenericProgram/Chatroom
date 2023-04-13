@@ -63,6 +63,10 @@ public class ChatClient implements Runnable {
                     shutdown();
                 }
             }
+        }
+    public static void main(String[] args){
+        ChatClient cc = new ChatClient();
+        cc.run();
     }
 
 }

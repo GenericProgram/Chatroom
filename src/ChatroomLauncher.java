@@ -15,7 +15,7 @@ public class ChatroomLauncher extends Frame {
     JTextField nameText, ipText;
     JPanel panel = new JPanel();
     JButton clientBtn;
-    public String nickname, ip;
+    String nickname, ip;
 
     public ChatroomLauncher(){
         JFrame.setDefaultLookAndFeelDecorated(true);
@@ -62,6 +62,8 @@ public class ChatroomLauncher extends Frame {
 
         frame.pack();
     }
+
     public String getNickname() {return nickname;}
     public String getIp() {return ip;}
+
 }
